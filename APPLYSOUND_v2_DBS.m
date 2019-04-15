@@ -1,4 +1,4 @@
-function [OUTEEG,TRIALNOISE]=APPLYSOUND_v2_DBSEEG,chanlocs,selecttrials,trialwise,iter,ignorechans)
+function [OUTEEG,TRIALNOISE]=APPLYSOUND_v2_DBS(EEG,chanlocs,selecttrials,trialwise,iter,ignorechans)
 % AN EXAMPLE MATLAB SCRIPT FOR USING DDWIENER AND SOUND 
 %
 % This is an EEGLAB-compatible MATLAB script that demonstrates how DDWiener
